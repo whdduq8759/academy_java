@@ -15,7 +15,6 @@ public class RandomExample {
          *  (int)(Math.random() * 10) + 1        -> 1 <= ~ < 11
          *
          *  # 공식 x이상 y이하의 랜덤정수
-         *  # 공식 x이상 y이하의 랜덤정수
          *  (int) (Math.random() * (y-x+1) + x
          */
         int rn = (int) (Math.random() * 100);
