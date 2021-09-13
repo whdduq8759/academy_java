@@ -3,10 +3,6 @@ package day15.final_;
 import javafx.scene.Parent;
 
 public class Child extends Parent {
-    @Override
-    void m1() {
-
-    }
 
 }
 
