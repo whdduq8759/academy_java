@@ -6,3 +6,4 @@ public class Apple {
         System.out.println("회사 애플 생성!");
     }
 }
+
