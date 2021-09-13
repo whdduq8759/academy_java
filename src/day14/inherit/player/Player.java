@@ -5,9 +5,9 @@ import day03.StdOutput;
 // 공통 기능과 속성을 가진 클래스를 부모, 상위클래스라고 부름.
 public class Player extends Object {
     //// 공통 필드
-    String nickName;
-    int level;
-    int hp;
+    public String nickName;
+    public int level;
+    public int hp;
 
     //// 공통 생성자
     public Player() {
