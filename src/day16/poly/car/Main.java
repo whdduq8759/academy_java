@@ -21,5 +21,17 @@ public class Main {
         Driver park = new Driver();
         park.drive(new Boxster());
 
+        System.out.println("==============================");
+        Car mySonata = (Sonata) park.buyCar("소나타");
+        mySonata.run();
+
+        sArr[0] = mySonata;
+
+        System.out.println("==============================");
+
+        CarShop shop = new CarShop();
+        int money = shop.sellCar(mySonata);
+        System.out.println("money = " + money);
     }
 }
+
